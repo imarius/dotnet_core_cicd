@@ -26,10 +26,5 @@ pipeline {
                sh 'dotnet publish CoreWeatherAPI/CoreWeatherAPI.csproj --configuration Release --no-restore'
              }
         }
-        stage('Deploy'){
-             steps{
-
-             }
-        }
     }
 }
