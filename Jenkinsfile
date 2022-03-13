@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build Docker Container'){
            steps{
-               sh 'docker build CoreWeatherAPI/Dockerfile'
+               sh 'docker build CoreWeatherAPI'
             }
          }
       //   stage('Restore packages'){
